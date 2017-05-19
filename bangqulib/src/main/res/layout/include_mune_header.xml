@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:id="@+id/rlTop"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/blue_p">
+
+    <RelativeLayout
+        android:id="@+id/rlBack"
+        android:layout_width="140px"
+        android:paddingLeft="@dimen/panding_10"
+        android:background="@drawable/btn_back_selector"
+        android:layout_height="match_parent" >
+
+        <com.balysv.materialmenu.MaterialMenuView
+            android:id="@+id/material_back_button"
+            app:mm_color="@color/white"
+            app:mm_scale="1"
+            app:mm_strokeWidth="2"
+            app:mm_transformDuration="1000"
+            app:mm_visible="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="首页"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:textColor="@color/white"
+        android:textSize="@dimen/textsize_17" />
+
+
+    <TextView
+        android:id="@+id/tvRight"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:text="注册"
+        android:textSize="@dimen/textsize_15"
+        android:textColor="@color/white"
+        android:padding="12dp"
+        android:paddingRight="5dp"
+        android:visibility="gone"
+        android:gravity="center_vertical"/>
+
+
+    <ImageView
+        android:id="@+id/ivRight"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:padding="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:visibility="gone"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_0.5"
+        android:layout_alignParentBottom="true"
+        android:background="@color/line_color"/>
+
+</RelativeLayout>

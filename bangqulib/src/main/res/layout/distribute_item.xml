@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#60000000">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/txt_9D"
+            android:textSize="@dimen/textsize_12"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/white"
+            android:padding="@dimen/panding_15"
+            android:gravity="center"
+            android:text="分配配送员"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line_0.5"
+            android:background="@color/line_color"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"/>
+
+        <com.longtu.base.view.ScrollListView
+            android:id="@+id/lvDistributes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@null"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/white"
+            android:scrollbars="none"></com.longtu.base.view.ScrollListView>
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:textColor="@color/txt_666"
+            android:textSize="@dimen/textsize_14"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/white"
+            android:layout_marginBottom="25dp"
+            android:text="取消"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

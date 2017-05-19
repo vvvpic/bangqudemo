@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    tools:context=".activity.BindingMobileActivity">
+
+    <include layout="@layout/include_mune_header"/>
+
+    <com.bangqu.view.ClearEditText
+        android:id="@+id/etPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/panding_15"
+        android:layout_marginTop="20dp"
+        android:textSize="@dimen/textsize_14"
+        android:textColor="@color/txt_333"
+        android:textColorHint="@color/hint_color"
+        android:hint="请输入手机号"
+        android:background="@color/white"/>
+
+
+    <Button
+        android:id="@+id/btnBinding"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_margin="@dimen/panding_15"
+        android:textColor="@color/white"
+        android:textSize="@dimen/textsize_14"
+        android:gravity="center"
+        android:background="@drawable/btn_login_selector"
+        android:text="提交"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tvAgree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="同意"
+            android:textSize="@dimen/panding_12"
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
+            android:drawablePadding="@dimen/panding_5"
+            android:drawableLeft="@mipmap/icon_selected"/>
+
+        <TextView
+            android:id="@+id/tvAgreement"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/panding_12"
+            android:textColor="@color/blue_p"
+            android:gravity="center"
+            android:text="《医师帮用户协议》"/>
+    </LinearLayout>
+
+</LinearLayout>

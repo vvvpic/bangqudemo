@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#fff</color>
+    <color name="background">#f5f5f5</color>
+    <color name="line_color">#ddd</color>
+    <color name="hint_color">#ddd</color>
+    <color name="txt_333">#333</color>
+    <color name="txt_666">#666</color>
+    <color name="txt_888">#888</color>
+    <color name="txt_999">#999</color>
+    <color name="txt_9D">#9d9d9d</color>
+    <color name="balck">#000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparent50">#22000000</color>
+    <color name="red">#ff597f</color>
+    <color name="green">#74c200</color>
+    <color name="orge">#fcf8aa</color>
+
+    <color name="blue_text">#3185fc</color>
+
+    <!-- 暗绿色 -->
+    <color name="blue">#03a9f4</color>
+    <color name="blue_p">#2b6ee2</color>
+    <color name="tar_n">#666666</color>
+    <color name="tar_p">#2b6ee2</color>
+
+</resources>
